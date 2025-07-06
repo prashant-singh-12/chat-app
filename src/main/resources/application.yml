@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/chat-app
+
+server:
+  port: 8080
+
+# Optional: Logging level
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+
+jwt:
+  secret: TLujP6fx/WrovGtKfq9cbpbuub9rDU6MEaBz5yTAxoc15QSkIRfnQ4l1k+eDC45bAAL/7aabJt7ziVLM7A6fZw==
+  expiration: 86400000
